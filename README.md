@@ -1,4 +1,2 @@
 # mentoria-paq
-Mentoria paq github
-
-mudar através local
+Projeto em Javascript com HML/CSS

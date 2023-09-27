@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <content>
+        <div>
+            <section class="sessao-1">
+                <h1>textão</h1>
+                <h2>texto menorzinho</h2>
+                Sessão 1
+            </section>
+            <section>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" placeholder="Escreva seu nome">
+            </section>
+            <section>
+                Qual foi o nome?:
+                <div id="nome-output">
+                </div>
+                <button onclick="lerInput()">Leia o input</button>
+            </section>
+
+            <section>
+                Calcular soma dos campos
+                <input type="number" id="numero1">
+                +
+                <input type="number" id="numero2">
+                <button onclick="lerInputSoma()">Somar</button>
+            </section>
+            <section>
+                Resultado da soma:
+                <div id="soma-output">
+                </div>
+            </section>
+
+            <section>
+                Calcular subtração dos campos
+                <input type="number" id="numero1-sub">
+                -
+                <input type="number" id="numero2-sub">
+                <button onclick="lerInputSub()">Sub</button>
+            </section>
+            <section>
+                Resultado da sub:
+                <div id="sub-output">
+                </div>
+            </section>
+        </div>
+    </content>
+
+</body>
+<footer>
+    Palavrinhas pequenas no final da página
+</footer>
+
+<script src="../scripts/script.js"></script>
+</html>
