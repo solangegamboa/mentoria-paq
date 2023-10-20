@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
@@ -29,5 +30,28 @@
     </div>
 
     <div>Atividade abaixo</div>
+
+    <section class="alinha-centro">
+        <h1> TODO LIST da Sol</h1>
+
+        <div>
+            <h2>Cadastro do item</h2>
+                <input placeholder="Adicione o item" id="novo-item">
+                <button onclick="addItem()">+</button>
+                <button onclick="addItem2()">+2</button>
+        </div>
+
+        <div>
+            <h2>Itens cadastrados</h2>
+            <ul id="lista-items">
+                <li>
+                    <input type="checkbox" name="tarefa1" id="1">
+                    <span>Texto que vem do cadastro</span>
+                    <button>-</button>
+                </li>
+            </ul>
+        </div>
+    </section>
 </body>
+<script src="scripts.js"></script>
 </html>
