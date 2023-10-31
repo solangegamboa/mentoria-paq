@@ -32,9 +32,9 @@ function criaTarefa(textoinput){
     label.appendChild(document.createTextNode(textoinput));
     lista.appendChild(li);
     li.appendChild(label);
+    adicionarCaixa(li);
     limpaTarefa();
     apagarTarefa(li);
-    adicionarCaixa(li);
     
 }
 
